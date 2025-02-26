@@ -138,3 +138,7 @@ PART 3
 5. Execute the .reg file.
 6. Go to Mouse Settings > Additional Mouse Settings > Pointer Options and UNCHECK Enhance Pointer Precision.
 7. DONE!
+
+# GAME .exe
+1. https://imgur.com/a/LyFZtfK
+2. Launch options IMPORTANT! -noforcemparms -noforcemaccel -noforcemspd -nomousegrab -mousethread
