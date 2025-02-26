@@ -5,13 +5,13 @@ Optimize Windows 10 22h2 for minimal latency and great hitreg
 2. Set Windows language to ENG.
 3. Download the files.
 4. Follow the guide.
-IMPORTANT! Run everything in this guide as Administrator!
+5. IMPORTANT! Run everything in this guide as Administrator!
 
 # Chapter 1
 1. Install latest network(Ethernet/LAN) adapter drivers and do a clean GPU driver installation and reboot.
 2. Open wincry, go to services and click apply.
 3. Open AncelsPerformanceBatch and go through it, optimize everything.
-  IMPORTANT: Leave monitor sound ON and DISABLE TOUCHPAD (MOUSE SMOOTHING)!
+4. IMPORTANT: Leave monitor sound ON and DISABLE TOUCHPAD (MOUSE SMOOTHING)!
 
 # Chapter 2 - DNS Jumper
 1. Open with admin privileges.
@@ -51,15 +51,15 @@ APPLY CHANGES!
 1. Run Disable Mitigations.
 2. Run Disable_MPO_FSO.
 3. Run Disable_SPECTRE+MELTDOWN_Protection.
-We will use other batches later.
-DONE.
+4. We will use other batches later.
+5. DONE.
 
 # Chapter 5 - INTEL ONLY - RWeverything
 1. Download RWEverything
 2. Click the PCI Devices Button on the top left, then click the 32 bit button when the window opens
 3. Select your xHCI USB Controller in the drop down box
 4. Look at your first Bar Address Register (BAR) on the right, then double click the box that has the same numbers. Usually its the second one in the first column
-   IMPORTANT: For the Address part, if you have two BAR's, you put the numbers in the second BAR first, then the first one. If you have only one, you just put the first BAR.
+1. IMPORTANT: For the Address part, if you have two BAR's, you put the numbers in the second BAR first, then the first one. If you have only one, you just put the first BAR.
 5. Click the Address Box in the new window that comes up
 6. Enter your Bar Address Register's in the address box
 7. After entering your Address, delete the last 4 digits and replace it with 2024, then click Ok
@@ -73,24 +73,24 @@ PART 2
 2. CPU MSR
 3. Click the icon that says User
 4. Add these commands one by one:
-   MSR_DRAM_POWER_LIMIT=0x618
-   MSR_PP1_POWER_LIMIT=0x640
-   MSR_PKG_RAPL_POWER_LIMIT=0x610
-   MSR_PPO_POWER_LIMIT=0x638
+1. MSR_DRAM_POWER_LIMIT=0x618
+2. MSR_PP1_POWER_LIMIT=0x640
+3. MSR_PKG_RAPL_POWER_LIMIT=0x610
+4. MSR_PPO_POWER_LIMIT=0x638
 5. Click Done
-IMPORTANT! Don't close the windows in RWeverything! Close RWeverything only.
+6. IMPORTANT! Don't close the windows in RWeverything! Close RWeverything only.
 
 PART 3
 1. Copy XHCI-IMOD-Interval.ps1 to C drive (C disk).
 2. Go to windows task scheduler (Win+R taskschd.msc).
 3. Create task
 4. https://imgur.com/a/61iC9FD
-  Program for task: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
-  Arguments: -ExecutionPolicy Bypass -File "C:\XHCI-IMOD-Interval.ps1"
+5. Program for task: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+6. Arguments: -ExecutionPolicy Bypass -File "C:\XHCI-IMOD-Interval.ps1"
 
 # Congrats! The easy part is done. Now for the manual optimizations!
 # UDP and HitReg
 1. https://youtu.be/IqVZK74yeNE?si=gkYNuL9xca6X0vuw
 2. https://youtu.be/es-I4-MVHI4?si=bRp8Zu3PXl2-tgBy
 3. https://youtu.be/rfIqPHPuOUs?si=_J5zGtaWiRTrbvoU
-DONE 100% BULLET REG!
+4. DONE 100% BULLET REG!
