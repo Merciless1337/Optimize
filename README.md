@@ -115,3 +115,10 @@ PART 3
 # INSANE PERFORMANCE TWEAK - PROCESS LASSO
 1. Install process lasso from my archive.
 2. https://youtu.be/9twBwLU-D-8?si=X2_1ggUu5cFdo8S9
+3. DONE!
+
+# MSI TOOL
+1. Open MSI Utility from my archive.
+2. Set MSI Mode for your graphics card, network adapter and usb controller.
+3. Set all priorities to Undefined.
+4. DONE!
