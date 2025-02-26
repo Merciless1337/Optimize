@@ -4,6 +4,7 @@ Optimize Windows 10 22h2 for minimal latency and great hitreg
 2. Set Windows language to ENG.
 3. Download the files.
 4. Follow the guide.
+IMPORTANT! Run everything in this guide as Administrator!
 
 # Chapter 1
 1. Install latest network(Ethernet/LAN) adapter drivers and do a clean GPU driver installation and reboot.
