@@ -139,6 +139,7 @@ PART 3
 6. Go to Mouse Settings > Additional Mouse Settings > Pointer Options and UNCHECK Enhance Pointer Precision.
 7. DONE!
 
-# GAME .exe
+# GAME .exe for cs 1.6
+# FOR OTHER GAMES CHECK ONLY "Disable Fullscreen Optimizations"!
 1. https://imgur.com/a/LyFZtfK
 2. Launch options IMPORTANT! -noforcemparms -noforcemaccel -noforcemspd -nomousegrab -mousethread
