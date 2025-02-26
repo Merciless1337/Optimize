@@ -94,3 +94,7 @@ PART 3
 2. https://youtu.be/es-I4-MVHI4?si=bRp8Zu3PXl2-tgBy
 3. https://youtu.be/rfIqPHPuOUs?si=_J5zGtaWiRTrbvoU
 4. DONE 100% BULLET REG!
+
+# 0 INPUT LAG POWER PLAN
+1. https://youtu.be/PDeYn4-eXTU?si=Lszf823g60VxP9Rk
+2. DONE!
