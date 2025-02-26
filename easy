@@ -1,0 +1,7 @@
+1. Install latest network(Ethernet/LAN) adapter drivers and do a clean GPU driver installation and reboot.
+2. Open wincry, go to services and click apply.
+3. Open AncelsPerformanceBatch and go through it, optimize everything.
+  IMPORTANT: Leave monitor sound ON and DISABLE TOUCHPAD (MOUSE SMOOTHING)!
+4. Go to DNS Jumper and find the fastest dns and apply it.
+5. FilterKeysSetter: 0ms; 130ms; 25ms. Flags: On; Available. Save to registry and broadcast change. APPLY!
+6. Install memreduct and set it to clean every 1min.
