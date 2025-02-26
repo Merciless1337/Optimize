@@ -51,3 +51,39 @@ APPLY CHANGES!
 3. Run Disable_SPECTRE+MELTDOWN_Protection.
 We will use other batches later.
 DONE.
+
+# Chapter 5 - INTEL ONLY - RWeverything
+1. Download RWEverything
+2. Click the PCI Devices Button on the top left, then click the 32 bit button when the window opens
+3. Select your xHCI USB Controller in the drop down box
+4. Look at your first Bar Address Register (BAR) on the right, then double click the box that has the same numbers. Usually its the second one in the first column
+   IMPORTANT: For the Address part, if you have two BAR's, you put the numbers in the second BAR first, then the first one. If you have only one, you just put the first BAR.
+5. Click the Address Box in the new window that comes up
+6. Enter your Bar Address Register's in the address box
+7. After entering your Address, delete the last 4 digits and replace it with 2024, then click Ok
+8. If you're at the right address, the top left box should be 00C8
+9. Double click the 00C8 box, then replace all 1s in the dataset with 0
+10. Click Done
+VIDEO GUIDE PART 1 https://streamable.com/sp4naf
+
+PART 2
+1. Click Access
+2. CPU MSR
+3. Click the icon that says User
+4. Add these commands one by one:
+   MSR_DRAM_POWER_LIMIT=0x618
+   MSR_PP1_POWER_LIMIT=0x640
+   MSR_PKG_RAPL_POWER_LIMIT=0x610
+   MSR_PPO_POWER_LIMIT=0x638
+5. Click Done
+IMPORTANT! Don't close the windows in RWeverything! Close RWeverything only.
+
+PART 3
+1. Copy XHCI-IMOD-Interval.ps1 to C drive (C disk).
+2. Go to windows task scheduler (Win+R taskschd.msc).
+3. Create task
+4. https://imgur.com/a/61iC9FD
+  Program for task: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+  Arguments: -ExecutionPolicy Bypass -File "C:\XHCI-IMOD-Interval.ps1"
+
+# Congrats! The easy part is done. Now for the manual optimizations!
