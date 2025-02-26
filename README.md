@@ -19,7 +19,7 @@ Optimize Windows 10 22h2 for minimal latency and great hitreg
 5. Close the window and click "Apply DNS".
 6. Close the app.
 
-# Chapter 3 - TCP Optimizer.
+# Chapter 3 - TCP Optimizer. (View RAW on github).
 1. General settings
   MTU: 1472
   TCP Window Auto-Tuning: Disabled.                                  Time to Live (TTL): 64
