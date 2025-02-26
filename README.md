@@ -98,3 +98,16 @@ PART 3
 # 0 INPUT LAG POWER PLAN
 1. https://youtu.be/PDeYn4-eXTU?si=Lszf823g60VxP9Rk
 2. DONE!
+
+# CORRECT TIMER RESOLUTION FOR WINDOWS 10 (FURTHER DECREASE INPUTLAG)!
+1. Download ISLC
+2. Copy dpclat.exe from my archive>programs To C drive (C disk).
+3. Win+R > taskschd.exe
+4. Create task for dpclat.exe at logon. https://imgur.com/a/7dEcfPV
+5. Open ISLC https://imgur.com/a/IHhMtdo
+6. Open measuresleep.exe from my programs and keep watching delta
+7. Keep increasing TimerResolution in ISLC until you get minimal delta in measuresleep.exe
+8. Reboot and check that dpclat starts at logon and islc starts with a delay.
+9. Check measuresleep.exe to make sure everything is right.
+10. IMPORTANT! Always keep dpclat running in background (just click stop)! It decreases delta from 15ms to 0.9ms :D
+11. DONE!
