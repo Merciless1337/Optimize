@@ -42,3 +42,5 @@ Optimize Windows 10 22h2 for minimal latency and great hitreg
                                                                      optimized
    2000                                                              65534
    300                                                               30
+   
+APPLY CHANGES!
