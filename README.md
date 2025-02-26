@@ -142,4 +142,4 @@ PART 3
 # GAME .exe for cs 1.6
 # FOR OTHER GAMES CHECK ONLY "Disable Fullscreen Optimizations"!
 1. https://imgur.com/a/LyFZtfK
-2. Launch options IMPORTANT! -noforcemparms -noforcemaccel -noforcemspd -nomousegrab -mousethread
+2. Launch options IMPORTANT! -noforcemparms -noforcemaccel -noforcemspd -nomousegrab -mousethread -w 640
