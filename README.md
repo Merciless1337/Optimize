@@ -123,3 +123,9 @@ PART 3
 2. Set MSI Mode for your graphics card, network adapter and usb controller.
 3. Set all priorities to Undefined.
 4. DONE!
+
+# SPEED UP KEYBOARD INPUT
+1. Open FilterKeysSetter from my archive.
+2. Check everything like me and click apply.
+3. https://imgur.com/a/fgSxRmT
+4. DONE!
