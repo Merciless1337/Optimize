@@ -129,3 +129,12 @@ PART 3
 2. Check everything like me and click apply.
 3. https://imgur.com/a/fgSxRmT
 4. DONE!
+
+# MOUSEFIX!
+1. Right click on desktop and go to Display Settings.
+2. Look at Scale %.
+3. Go to MOUSEFIX archive > Windows 10 fixes.
+4. Find the .reg file that contains same Scale % as your desktop.
+5. Execute the .reg file.
+6. Go to Mouse Settings > Additional Mouse Settings > Pointer Options and UNCHECK Enhance Pointer Precision.
+7. DONE!
