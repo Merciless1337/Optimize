@@ -30,7 +30,7 @@ Optimize Windows 10 22h2 for minimal latency and great hitreg
                                                                      TCP 1323 Timestamps: Disabled.
 
 2. Advanced settings
-   IMPORTANG: STARTING FROM THE LEFT > DOWN > RIGHT > DOWN!
+   IMPORTANG: GOING LEFT TO RIGHT!
    4                                                                 0
    2                                                                 optimal
    4                                                                 disabled
