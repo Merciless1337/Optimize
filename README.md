@@ -44,3 +44,10 @@ Optimize Windows 10 22h2 for minimal latency and great hitreg
    300                                                               30
    
 APPLY CHANGES!
+
+# Chapter 4 - Batches.
+1. Run Disable Mitigations.
+2. Run Disable_MPO_FSO.
+3. Run Disable_SPECTRE+MELTDOWN_Protection.
+We will use other batches later.
+DONE.
