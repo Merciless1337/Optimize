@@ -1,4 +1,5 @@
 # It's recommended to download the RAW README.md file from github. - Merciless.
+# Every file needed is provided by me in the archive! (NOT ISLC).
 # Optimize
 Optimize Windows 10 22h2 for minimal latency and great hitreg
 1. Install Windows X-Lite Optimum 10.
