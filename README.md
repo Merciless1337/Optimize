@@ -111,3 +111,7 @@ PART 3
 9. Check measuresleep.exe to make sure everything is right.
 10. IMPORTANT! Always keep dpclat running in background (just click stop)! It decreases delta from 15ms to 0.9ms :D
 11. DONE!
+
+# INSANE PERFORMANCE TWEAK - PROCESS LASSO
+1. Install process lasso from my archive.
+2. https://youtu.be/9twBwLU-D-8?si=X2_1ggUu5cFdo8S9
