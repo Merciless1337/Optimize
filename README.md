@@ -89,3 +89,8 @@ PART 3
   Arguments: -ExecutionPolicy Bypass -File "C:\XHCI-IMOD-Interval.ps1"
 
 # Congrats! The easy part is done. Now for the manual optimizations!
+# UDP and HitReg
+1. https://youtu.be/IqVZK74yeNE?si=gkYNuL9xca6X0vuw
+2. https://youtu.be/es-I4-MVHI4?si=bRp8Zu3PXl2-tgBy
+3. https://youtu.be/rfIqPHPuOUs?si=_J5zGtaWiRTrbvoU
+DONE 100% BULLET REG!
